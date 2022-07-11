@@ -3,4 +3,5 @@ Repositório criado para o Desafio de Projeto da Dio e Biblioteca das práticas 
 
 ## Links Úteis
 [Sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/) ; 
-[Interfaces HTML - JQuery UI](https://jqueryui.com/)
+[Interfaces HTML - JQuery UI](https://jqueryui.com/) ;
+[Tinypng - otimizar imagens/ganhar espaço no código](https://tinypng.com/)
