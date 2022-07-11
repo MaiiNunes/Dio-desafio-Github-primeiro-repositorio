@@ -3,7 +3,7 @@ body {
 }
 
 .photo{
-    border: 1px solid blueviolet;
+    border: 2px solid rgba(137, 43, 226, 0.637);
     border-radius: 50%;
 }
 
