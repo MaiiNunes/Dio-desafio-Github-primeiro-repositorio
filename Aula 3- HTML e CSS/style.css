@@ -49,3 +49,13 @@ a {
 .post_image {
     margin-bottom: 15px;
 }
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 10px;
+    }
+
+.contacts_list li a {
+    text-decoration: none;
+    color: rgba(137, 43, 226, 0.815);
+}
