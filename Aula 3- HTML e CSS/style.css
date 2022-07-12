@@ -1,5 +1,6 @@
 body {
     background: rgb(178, 209, 255)
+    font-family: Verdana;
 }
 
 .photo{
@@ -11,15 +12,25 @@ body {
     color: blueviolet; /*altera cor*/
 }
 
+#title{
+    font-style: italic;
+    font-size: 40px ;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: blueviolet;
+
+}
 .post_title {
+    text-decoration: overline;
     font-size: 16px; /*altera tamanho*/
     font-style: italic; /*altera fonte*/
     margin: 0;
     margin-bottom: 15px;
-}
-
-#title{
-    font-style: italic;
 }
 
 .post {
