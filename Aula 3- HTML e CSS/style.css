@@ -1,14 +1,14 @@
 body {
-    background: rgb(178, 209, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 900px;
-    margin: auto;
+    background: rgb(178, 209, 255); /*altera cor de fundo da página*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*altera fonte*/
+    max-width: 900px; /*largura máxima dos elementos da página*/
+    margin: auto; /* margem automática (centro)*/
 }
 
 .photo{
-    border: 2px solid rgba(137, 43, 226, 0.637);
-    border-radius: 50%;
-    margin: 15px 10px 0px 780px;
+    border: 2px solid rgba(137, 43, 226, 0.637); /*borda na foto*/
+    border-radius: 50%; /*arredonda as bordas da foto*/
+    margin: 15px 10px 0px 780px; /*direção da foto*/
 }
 
 #title, .subtitle, .post_title { /* , seleciona mais de um local para adc o css*/
@@ -17,11 +17,11 @@ body {
 
 #title{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-    font-size: 40px ;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
+    font-style: italic; 
+    font-size: 40px ;/*tamanho do texto*/
+    text-align: center; /*alinhar texto*/
+    text-transform: uppercase; /*altera o maiusculo e minusculo do texto*/
+    text-decoration: underline; /*adiciona linha destaque*/
 }
 
 a {
@@ -34,7 +34,7 @@ a {
     text-decoration: overline;
     font-size: 16px; /*altera tamanho*/
     font-style: italic; /*altera fonte*/
-    margin: 0;
+    margin: 0; /*margem/espaço entre os elementos*/
     margin-bottom: 15px;
 }
 
@@ -57,11 +57,11 @@ a {
 
 .post_image {
     margin-bottom: 15px;
-    width: 100%;
+    width: 100%; /*largura da imagem*/
 }
 
 .contacts_list {
-    list-style-type: none;
+    list-style-type: none; /*tipo de lista (simbolos)*/
     padding-left: 10px;
     }
 
