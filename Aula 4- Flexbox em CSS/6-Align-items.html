@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align items</title>
+
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center{
+            align-items: center;
+        }
+
+        .strectch{
+            align-items: stretch;
+        }
+
+        .start{
+            align-items: flex-start;
+        }
+
+    </style>
+
+</head>
+<body>
+    <p>center</p>
+    <section class="container center">
+        <div class="item">item 1</div>
+        <div class="item">item 3 texto texto texta</div>
+        <div class="item">Jorzito and May and Alexandra Gray</div>
+    </section>
+
+    <p>strectch</p> <!-- faz a borda colorida crescer igualmente em todos os textos-->
+    <section class="container strectch">
+        <div class="item">item 1</div>
+        <div class="item">item 3 texto texto texta</div>
+        <div class="item">Jorzito and May and Alexandra Gray</div>
+    </section>
+
+    <p>flex-start</p> 
+    <section class="container start">
+        <div class="item">item 1</div>
+        <div class="item">item 3 texto texto texta</div>
+        <div class="item">Jorzito and May and Alexandra Gray</div>
+    </section>
+
+</body>
+</html>
