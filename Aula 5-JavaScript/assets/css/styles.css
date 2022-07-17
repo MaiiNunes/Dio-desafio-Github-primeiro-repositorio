@@ -7,6 +7,11 @@
     font-weight: 800;
 }
 
+#title{
+    text-align: center; /*alinhar texto*/
+    text-decoration: underline; /*adiciona linha destaque*/
+}
+
 body {
     display: flex;
     align-items: center;
@@ -36,4 +41,5 @@ button {
     align-items: center;
     margin: 0 20px;
     font-size: 16pt;
+    text-decoration: underline;
 }
