@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- adaptação de tela para celular, laptop -->
     <link rel="stylesheet" href="assets/css/styles.css"/> <!--importar css para dentro do html-->
-    <script src="assets/js/scripts.js"></script> <!--importar js para dentro do html-->
-    <title>Teste</title>
+    
+    <title>Contador</title>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <h1>Contador</h1>
+    <p> Este é o meu primeiro projeto JavaScript!<br>Clique nos botões para alterar o valor.</p>
+    <div id="counter">
+        <button name="subtrair" onclick="decrement()">-</button>
+        <span id="currentNumber">0</span>
+        <button name="adicionar" onclick="increment()">+</button>
+    </div>
+
+    <script src="assets/js/scripts.js"></script> <!--importar js para dentro do html-->
+
 </body>
 </html>
