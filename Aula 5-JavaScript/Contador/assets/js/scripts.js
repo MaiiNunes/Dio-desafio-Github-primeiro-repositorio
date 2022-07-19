@@ -1,25 +1,25 @@
-var currentNumberWrapper = document.getElementById('currentNumber');
+var currentnumberwrapper = document.getElementById('currentNumber'); /*--currentnumberwrapper é o element span*/
 var currentNumber = 0;
 
-function modifyText() {
+function modifyText() { /* função modificar texto */
     if(currentNumber < 0){
-        document.getElementById("currentNumber").style.color = "red";
+        currentnumberwrapper.style.color = "red"; /* se o currentnumber for menor que 0 altera a cor pra vermelho */
     }
     if(currentNumber >= 0){
-        document.getElementById("currentNumber").style.color = "green";
+        currentnumberwrapper.style.color = "green"; /* se o currentnumber for ihual ou maior que 0 altera a cor pra verde */
     }
 }
 
 
-function increment() {
+function increment() { 
     currentNumber = currentNumber + 1;
-    currentNumberWrapper.innerHTML = currentNumber;
+    currentnumberwrapper.innerHTML = currentNumber;
     
 }
 
 function decrement() {
     currentNumber = currentNumber - 1;
-    currentNumberWrapper.innerHTML = currentNumber;    
+    currentnumberwrapper.innerHTML = currentNumber;    
     
 }
 
