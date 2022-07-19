@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: blueviolet;
+    font-weight: 800;
+}
+
+#title{
+    text-align: center; /*alinhar texto*/
+    text-decoration: underline; /*adiciona linha destaque*/
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(178, 209, 255);
+}
+
