@@ -1,9 +1,9 @@
 function numeros(numb1, numb2){
-    if(!numb1 || !numb2) return`Defina dois números!`
+    if(!numb1 || !numb2) return `Defina dois números!`
     const primeiraFrase = criaPrimeiraFrase(numb1, numb2);
-    const segundaFrase = criaSegundaFrase(numb1 - numb2);
+    const segundaFrase = criaSegundaFrase(numb1, numb2);
 
-    return`${primeiraFrase} ${segundaFrase}`
+    return `${primeiraFrase} ${segundaFrase}`
 }
 
 function criaPrimeiraFrase(numb1, numb2){
@@ -19,12 +19,13 @@ function criaPrimeiraFrase(numb1, numb2){
 function criaSegundaFrase (numb1, numb2){
     const subtracao = numb1 - numb2;
 
-    let menorQue10 = 'menor';
-    let menorQue20 = 'menor';
+    let resultado10 = 'menor';
+    let resultado20 = 'menor';
+
     const compara10 = subtracao > 10;
     const compara20 = subtracao > 20;
 
-    if(compara10){
+    if(compara10){        
         resultado10 = 'maior';
     }
 
@@ -32,7 +33,7 @@ function criaSegundaFrase (numb1, numb2){
         resultado20 = 'maior';
     }
 
-    return`Sua subtração é ${subtracao}, que é ${resultado10} que 10 e ${resultado20} que 20.`
+    return `Sua subtração é ${subtracao}, que é ${resultado10} que 10 e ${resultado20} que 20.`
 }
 
-console.log(numeros(5, 20))
+console.log(numeros(20, 5));
