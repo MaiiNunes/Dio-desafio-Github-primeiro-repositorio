@@ -7,3 +7,4 @@ Repositório criado para o Desafio de Projeto da Dio e Biblioteca das práticas 
 [Tinypng - otimizar imagens/ganhar espaço no código](https://tinypng.com/); 
 [W3.CSS- básico css](https://www.w3schools.com/w3css/defaulT.asp);
 [TypeScript](https://www.typescriptlang.org/)
+[mozilla|JS|CSS|HTML](https://developer.mozilla.org/pt-BR/)
