@@ -9,3 +9,4 @@ Repositório criado para o Desafio de Projeto da Dio e Biblioteca das práticas 
 [TypeScript](https://www.typescriptlang.org/); 
 [mozilla|JS|CSS|HTML](https://developer.mozilla.org/pt-BR/); 
 [mozilla|Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes); 
+[mozilla|Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements); 
